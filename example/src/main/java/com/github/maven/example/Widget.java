@@ -29,8 +29,8 @@ public class Widget {
 	 * @param enabled
 	 * @return this widget
 	 */
-	public Widget setEnabled(boolean enable) {
-		this.enabled = enable;
+	public Widget setEnabled(boolean enables) {
+		this.enabled = enables;
 		return this;
 	}
 }
