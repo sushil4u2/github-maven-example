@@ -5,13 +5,13 @@ package com.github.maven.example;
  */
 public class Widget {
 
-	private boolean enabled;
+	private boolean enable;
 
 	/**
 	 * Create new enabled widget
 	 */
 	public Widget() {
-		enabled = true;
+		enable = true;
 	}
 
 	/**
@@ -20,7 +20,7 @@ public class Widget {
 	 * @return true if enabled, false otherwise
 	 */
 	public boolean isEnabled() {
-		return enabled;
+		return enable;
 	}
 
 	/**
@@ -29,8 +29,8 @@ public class Widget {
 	 * @param enabled
 	 * @return this widget
 	 */
-	public Widget setEnabled(boolean enabled) {
-		this.enabled = enabled;
+	public Widget setEnabled(boolean enable) {
+		this.enable = enable;
 		return this;
 	}
 }
